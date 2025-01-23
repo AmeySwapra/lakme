@@ -11,7 +11,7 @@ function HomePage() {
   const [data, setData] = useState([])
   const fetchData = async () => {
        try {
-        const response = await axios.get('http://localhost:8080/lakme_salon_locations')
+        const response = await axios.get('https://restate-json.onrender.com/lakme_salon_locations')
         setData(response.data)
        } catch (error) {
         console.log(error)
