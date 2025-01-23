@@ -25,7 +25,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Homepage | Enpro Industries</title>
+        <title>Homepage | Lakme</title>
       </Helmet>
       <ScrollToTop />
       <Header currentPage={currentPage} />
